@@ -4,21 +4,20 @@ public class Complex {
     private final double real;
     private final double im;
 
-    public Complex(double r, double i) {
+    public Complex(double, double) {
        
     }
     
-    public Complex(double real){
+    public Complex(double){
         
     }
     
-        public Complex(String num) throws InvalidComplexException{
+     public Complex(String){
 
-        
     }
     
-    public double R(){ return this.real;}
-    public double I(){ return this.im;}
+    public double R(){}
+    public double I(){}
     
     public Complex add(Complex z){
         
